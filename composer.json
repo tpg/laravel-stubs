@@ -2,8 +2,11 @@
     "name": "thepublicgood/laravel-stubs",
     "description": "More opinionated Laravel stubs",
     "keywords": [
-        "spatie",
-        "laravel-stubs"
+        "laravel",
+        "stubs",
+        "laravel-stubs",
+        "tpg",
+        "thepublicgood"
     ],
     "homepage": "https://github.com/spatie/laravel-stubs",
     "license": "MIT",
