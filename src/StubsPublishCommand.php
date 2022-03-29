@@ -13,7 +13,7 @@ class StubsPublishCommand extends Command
 {
     use ConfirmableTrait;
 
-    protected $signature = 'spatie-stub:publish {--force : Overwrite any existing files}';
+    protected $signature = 'tpg-stub:publish {--force : Overwrite any existing files}';
 
     protected $description = 'Publish all opinionated stubs that are available for customization';
 

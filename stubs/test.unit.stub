@@ -1,12 +1,14 @@
 <?php
 
+declare(strict_types=1);
+
 namespace {{ namespace }};
 
 use PHPUnit\Framework\TestCase;
 
 class {{ class }} extends TestCase
 {
-    public function it_can_test()
+    public function it_can_test(): void
     {
         $this->assertTrue(true);
     }

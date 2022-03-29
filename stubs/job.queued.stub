@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace {{ namespace }};
 
 use Illuminate\Bus\Queueable;
@@ -16,7 +18,7 @@ class {{ class }} implements ShouldQueue
     {
     }
 
-    public function handle()
+    public function handle(): void
     {
     }
 }

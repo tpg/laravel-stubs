@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Spatie\Stubs\Tests;
 
 use Illuminate\Support\Facades\File;
@@ -7,7 +9,7 @@ use Illuminate\Support\Facades\File;
 class StubPublishCommandTest extends TestCase
 {
     /** @test */
-    public function it_can_publish_stubs()
+    public function it_can_publish_stubs(): void
     {
         $targetStubsPath = $this->app->basePath('stubs');
 

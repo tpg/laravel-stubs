@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace {{ namespace }};
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
@@ -8,7 +10,7 @@ use Tests\TestCase;
 
 class {{ class }} extends TestCase
 {
-    public function it_can_test()
+    public function it_can_test(): void
     {
     }
 }
