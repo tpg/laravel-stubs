@@ -15,7 +15,7 @@ class StubPublishCommandTest extends TestCase
 
         File::deleteDirectory($targetStubsPath);
 
-        $this->artisan('spatie-stub:publish')->assertExitCode(0);
+        $this->artisan('tpg-stub:publish')->assertExitCode(0);
 
         $stubPath = __DIR__ . '/../stubs/migration.stub';
 
