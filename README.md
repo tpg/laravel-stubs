@@ -1,3 +1,4 @@
+[![run-tests](https://github.com/tpg/laravel-stubs/actions/workflows/run-tests.yml/badge.svg)](https://github.com/tpg/laravel-stubs/actions/workflows/run-tests.yml)
 # A slightly more opinionated version of Spatie's Laravel Stubs package.
 
 This repo contains opinionated versions of the Laravel stubs. The most notable changes are:
