@@ -1,6 +1,6 @@
 {
-    "name": "spatie/laravel-stubs",
-    "description": "Opinionated Laravel stubs",
+    "name": "thepublicgood/laravel-stubs",
+    "description": "More opinionated Laravel stubs",
     "keywords": [
         "spatie",
         "laravel-stubs"
@@ -8,6 +8,12 @@
     "homepage": "https://github.com/spatie/laravel-stubs",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Warrick Bayman",
+            "email": "makers@thepublicgood.dev",
+            "homepage": "https://thepublicgood.dev",
+            "role": "Developer"
+        },
         {
             "name": "Freek Van der Herten",
             "email": "freek@spatie.be",
